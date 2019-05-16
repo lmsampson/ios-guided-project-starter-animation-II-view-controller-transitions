@@ -13,6 +13,8 @@
 		4674869B22036F6C0097D6D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4674869922036F6C0097D6D7 /* LaunchScreen.storyboard */; };
 		467486A32203705C0097D6D7 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467486A22203705C0097D6D7 /* RedViewController.swift */; };
 		CED47F97228CCA6E00A8E105 /* StartingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED47F96228CCA6E00A8E105 /* StartingViewController.swift */; };
+		FF2E04FA228DC9780001D190 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2E04F9228DC9780001D190 /* Animator.swift */; };
+		FF2E04FC228DCC0B0001D190 /* LabelProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2E04FB228DCC0B0001D190 /* LabelProviding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4674869C22036F6C0097D6D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		467486A22203705C0097D6D7 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 		CED47F96228CCA6E00A8E105 /* StartingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartingViewController.swift; sourceTree = "<group>"; };
+		FF2E04F9228DC9780001D190 /* Animator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		FF2E04FB228DCC0B0001D190 /* LabelProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelProviding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				4674869022036F6B0097D6D7 /* AppDelegate.swift */,
 				CED47F96228CCA6E00A8E105 /* StartingViewController.swift */,
 				467486A22203705C0097D6D7 /* RedViewController.swift */,
+				FF2E04F9228DC9780001D190 /* Animator.swift */,
+				FF2E04FB228DCC0B0001D190 /* LabelProviding.swift */,
 				4674869422036F6B0097D6D7 /* Main.storyboard */,
 				4674869722036F6C0097D6D7 /* Assets.xcassets */,
 				4674869922036F6C0097D6D7 /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF2E04FC228DCC0B0001D190 /* LabelProviding.swift in Sources */,
+				FF2E04FA228DC9780001D190 /* Animator.swift in Sources */,
 				CED47F97228CCA6E00A8E105 /* StartingViewController.swift in Sources */,
 				467486A32203705C0097D6D7 /* RedViewController.swift in Sources */,
 				4674869122036F6B0097D6D7 /* AppDelegate.swift in Sources */,
